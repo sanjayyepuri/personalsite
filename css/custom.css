@@ -1,0 +1,95 @@
+
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #002b36;
+    background-image: url(/images/background-dark.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    height: 100vh;
+}
+.container{
+    height: 100%;
+}
+/* Custom Fonts
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@font-face {
+    font-family: "font";
+    src: url('/fonts/LoveloLineBold.eot');
+    src: url('/fonts/LoveloLineBold.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/LoveloLineBold.woff') format('woff'),
+         url('/fonts/LoveloLineBold.ttf') format('truetype'),
+         url('yourFont.svg#yourFontName') format('svg');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300; }
+h1 { font-size: 4.0rem; letter-spacing: -.1rem;}
+h2 { font-size: 3.6rem; letter-spacing: -.1rem; }
+h3 { font-size: 3.0rem; letter-spacing: -.1rem; }
+h4 { font-size: 2.4rem; letter-spacing: -.08rem; }
+h5 { font-size: 1.8rem; letter-spacing: -.05rem; }
+h6 { font-size: 1.5rem; letter-spacing: 0; }
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  h1 { font-size: 5.0rem; }
+  h2 { font-size: 4.2rem; }
+  h3 { font-size: 3.6rem; }
+  h4 { font-size: 3.0rem; }
+  h5 { font-size: 2.4rem; }
+  h6 { font-size: 1.5rem; }
+}
+
+p {
+  margin-top: 0; }
+
+.title {
+  color: #268bd2;
+  padding-right: 2em;
+  font-size: 3.6rem;
+  font-family: 'Lovelo Line';
+  font-weight: bold;
+  font-style: normal;
+}
+
+.title-elements {
+    color: #839496;
+    padding: 1rem 1rem;
+    font-family: 'Lovelo';
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+
+.intro {
+    color: #839496;
+    padding: 1rem;
+    width:30em;
+    position: absolute;
+    bottom: 0;
+}
+
+.intro > h1 {
+  font-family: 'Lovelo';
+  font-weight: 900;
+  font-style: normal;
+  font-size: 3.6rem;
+}
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  color: #1EAEDB; }
+a:hover {
+  color: #0FA0CE; }

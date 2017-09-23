@@ -15,6 +15,7 @@ body {
 }
 .container{
     height: 100%;
+    max-width: none;
 }
 /* Custom Fonts
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -93,3 +94,12 @@ a {
   color: #1EAEDB; }
 a:hover {
   color: #0FA0CE; }
+
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+
+}

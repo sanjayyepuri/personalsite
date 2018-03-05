@@ -1,8 +1,6 @@
 #!/bin/bash
-cp -a ~/personalsite/. ~/public_html
+cp -a ~/personalsite/_site/. ~/public_html
 
 find ~/public_html -type d -exec chmod 755 {} \;
 find ~/public_html -type f -exec chmod o+r {} \;
 
-rm ~/public_html/deploy
-rm ~/.git

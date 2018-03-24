@@ -16,7 +16,7 @@ permalink: /archive/
     {% endif %}
         <li class="c-archives__item">
             <h3>
-              <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+              <a href="{{ post.url | prepend: site.baseurl | append: ".html"}}">{{post.title}}</a>
               <br>
               <small>{{post.description}}</small>
             </h3>

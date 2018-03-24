@@ -3,8 +3,8 @@ layout: content
 title: Projects
 permalink: /projects/
 ---
+**UNDER CONSTRUCTION**
 
-Show off your projects here!
-- [Project's Project]()
+
 
 

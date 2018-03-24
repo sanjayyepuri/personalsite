@@ -4,18 +4,10 @@ title: About Me
 
 ---
 
-Hi, I'm a freshman at the University of Texas @ Austin, majoring in Computer Science and Mathematics.
+Hi, I’m a freshman at the University of Texas @ Austin, majoring in Computer Science and Mathematics. I am interested in Full Stack Development, and have recently gotten into Computer Architecture and Rust.  I have two years of professional software development experience and am looking for more! 
+
+Feel free to shoot me an email if you have anything to say, interesting articles, job opportunities, etc. 
 
 ----
 
-## The Website
-This site was made on an [Apple MBP](https://www.apple.com/) powered by [Jekyll](https://jekyllrb.com) on [Github Pages](https://pages.github.com).
-I'd love to hear your feedback on this site and my work.
-
-----
-
-## Etcetera
-
-- [Instagram](https://www.instagram.com/) for 📸
-- [Facebook](https://www.facebook.com/) for 🕺
 
